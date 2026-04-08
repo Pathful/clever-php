@@ -1,29 +1,17 @@
 {
-    "name": "GIT_USER_ID/GIT_REPO_ID",
-    "description": "",
-    "keywords": [
-        "swagger",
-        "php",
-        "sdk",
-        "api"
-    ],
-    "homepage": "http://swagger.io",
+    "name": "pathful/clever-php",
+    "description": "Pathful Clever API SDK",
+    "homepage": "https://github.com/pathful/clever-php",
     "license": "proprietary",
-    "authors": [
-        {
-            "name": "Swagger and contributors",
-            "homepage": "https://github.com/swagger-api/swagger-codegen"
-        }
-    ],
     "require": {
-        "php": ">=5.5",
+        "php": "^7.4",
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "guzzlehttp/guzzle": "^6.2"
+        "guzzlehttp/guzzle": "^7"
     },
     "require-dev": {
-        "phpunit/phpunit": "^4.8",
+        "phpunit/phpunit": "^9.5",
         "squizlabs/php_codesniffer": "~3.3",
         "friendsofphp/php-cs-fixer": "~2.2"
     },
