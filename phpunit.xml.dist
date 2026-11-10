@@ -9,6 +9,7 @@
         <testsuite>
             <directory>./test/Api</directory>
             <directory>./test/Model</directory>
+            <file>./test/Php8CompatTest.php</file>
         </testsuite>
     </testsuites>
 
